@@ -15,5 +15,18 @@ files:
   - name: solution.py
     visible: true
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: "'Welc[28 chars]es!\\nYour final bill is: $25.\\n' != 'Welc[28 chars]es!\\\
+    nLarge pizzas are $25\\nOf course\\nOkay\\nUr[16 chars]25\\n'"
+  time: "Thu, 24 Apr 2025 21:52:59 UTC"
+  expected: |
+    Welcome to Python Pizza Deliveries!
+    Your final bill is: $25.
+  actual: |
+    Welcome to Python Pizza Deliveries!
+    Large pizzas are $25
+    Of course
+    Okay
+    Ur final bill is: 25
 record: -1
