@@ -15,7 +15,7 @@ files:
   - name: solution.py
     visible: true
     learner_created: false
-status: Failed
+status: Solved
 feedback:
   message: "'Welc[28 chars]es!\\nYour final bill is: $25.\\n' != 'Welc[28 chars]es!\\\
     nLarge pizzas are $25\\nOf course\\nOkay\\nUr[16 chars]25\\n'"

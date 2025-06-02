@@ -10,15 +10,15 @@
 #        return "This is an odd number."
 #print(odd_or_even(10))
 #############
-def fizz_buzz(target):
-    for number in range(1, target + 1):
-        if number % 3 == 0 or number % 5 == 0:
-            print("FizzBuzz")
-        if number % 3 == 0:
-            print("Fizz")
-        if number % 5 == 0:
-            print("Buzz")
+def is_leap(year):
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 4000 == 0:
+                return True
+            else:
+                return False
         else:
-            print([number])
-
-fizz_buzz(50)
+            return True
+    else:
+        return False
+print(is_leap(1999))
