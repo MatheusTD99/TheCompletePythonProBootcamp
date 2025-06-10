@@ -1,0 +1,15 @@
+while True:
+    valor1 = int(input("Digite o primeiro valor inteiro: "))
+    valor2 = int(input("Digite o segundo valor inteiro (maior que o primeiro): "))
+    
+    if valor2 > valor1:
+        break
+    else:
+        print("O segundo valor deve ser maior que o primeiro. Tente novamente.")
+
+
+soma = 0
+for i in range(valor1, valor2 + 1):
+    soma += i
+
+print(f"A soma dos números entre {valor1} e {valor2} é: {soma}")
